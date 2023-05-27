@@ -10,10 +10,12 @@ import SnapKit
 
 final class ViewController: UIViewController {
     
+    //MARK: elements
     let button = UIButton(type: .system)
     let textField = UITextField()
     let label = UILabel()
     
+    //MARK: override
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
